@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.outlin, .mostra, .menu, .addres, menu li {
+    outline: 1px solid black;
+}
+
+.wrapper {
+    width: 1000px;
+
+    outline: 1px solid green;
+    margin: auto;
+}
+
+.header {
+    background-color: #BEFFE0;
+    width: 100%;
+}
+
+.mostra {
+    float: left;
+}
+
+.addres {
+    float: right;
+}
+
+.nav {
+    display: table-row;
+
+}
+
+.nav {
+    list-style-type: none;
+    float: left;
+    padding: 5 10;
+    display: table-cell;
+
+}
+
+.nav li:hover {
+    background-color: #7678FA;
+
+}
